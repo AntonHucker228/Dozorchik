@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>DozorTeam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripto.js"></script>
+
+</head>
+
+<body>
+    <div id="head">
+        <p id="coma">.</p>
+        <div id="name"><p id="main_name">DozorTeam</p></div>
+        <div id="us"><p id="head_txt">О нас</p></div>
+        <div id="prjkts"><p id="head_txt">Проекты</p></div>
+        <div id="tg"><img id="tg_pic" src="tg.png" alt=""></div>
+        <div id="minecrafto"><img id="mino_pic" src="mino.svg" alt=""></div>
+    </div>
+    <article id="Empier">
+
+
+
+        <p id="doz_t">Dozor</text><text id="d_team">Team</p>
+
+
+    </article>
+
+    <article class="posts">
+
+        <div id="headline"><text>Корпорация — начинается с тебя</text></div>
+        
+
+
+
+
+        <div id="pics"> 
+
+            <div class="about_us">
+                 <div id="coma">.</div>
+                <div id="pic_text">
+
+                    <div id="pic">
+                        <img id="blya" src="pic1.jpg" alt="">
+                    </div>
+                    <div id="text_about">
+                        <div id="pre">Начните свой путь с нами</div>
+                        <p id="general">Откройте для себя новый мир удобства и иноваций, заложенных в наши проеткы. Наша команда активно занимается поиском новых решений, увеличивая уровень вашего комфорта. Выбирая нас, вы выбираете скорость, надёжность и результат. Выбери DozorTeam - Выбери себя!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id="choose_page">
+                <div id="circle_1">
+                    <p id="f"> .</p>
+                    
+                    <text id="text_1"><<</text>
+                </div>
+                <div id="circle_2">
+                    <p id="f"> .</p>
+                    
+                    <text id="text_1">>></text>
+                </div>
+                <div id="block_O">
+                    <div id="small_1O" class="small_12O"></div>
+                    <div id="small_2O" class="small_22O"></div>
+                    <div id="small_3O" class="small_32O"></div>
+                </div>
+            </div>
+        </div>
+        <div id="projects">Наши проеткы</div>
+    </article>
+    <div id="second_place">
+        <div id="coma">.</div>
+        <div id="our_projects">
+            <div id="project1" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="minecraft.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">Майнкрафт сервер DozorTeam</p></div>
+                </div>
+            </div>
+            <div id="project2" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="tgcont.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">Telegram contests Розыгрыши • Звёзды • NFT</p></div>
+                </div>
+            </div>
+            <div id="project3" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="kono.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">Youtube канал - Kono</p></div>
+                </div>
+            </div>
+            <div id="project4" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="laptop.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">В разработке...</p></div>
+                </div>
+            </div>
+            <div id="project5" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="laptop.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">В разработке...</p></div>
+                </div>
+            </div>
+            <div id="project6" class="projects">
+                <div class="svg_txt">
+                    <div class="project_icons"><img class="size_svg" src="laptop.svg" alt=""></div>
+                    <div id="project_txt"><p id="txt_txt">В разработке...</p></div>
+                </div>
+            </div>
+        </div>
+        <footer>DozorTeam</footer>
+    </div>
+    
+
+
+    <script>
+const txt = document.querySelector(".posts");
+
+
+window.addEventListener('scroll', e => {
+  if (pageYOffset >= 250) {
+    txt.classList.add("op");
+  } else {
+    txt.classList.remove("op");
+  }
+});
+
+
+var but_1 = document.querySelector("#circle_1");
+var but_2 = document.querySelector("#circle_2");
+var myIMG = document.querySelector("#blya");
+var head_text = document.querySelector("#pre");
+var general_text = document.querySelector("#general");
+
+var varian_1 = ["Начните свой путь с нами", "Откройте для себя новый мир удобства и иноваций, заложенных в наши проеткы. Наша команда активно занимается поиском новых решений, увеличивая уровень вашего комфорта. Выбирая нас, вы выбираете скорость, надёжность и результат. Выбери DozorTeam - Выбери себя!"];
+var varian_2 = ["ты залупа ебаная", "мегакорпорации дозортим похуй на своих клиентов, вот у команды специалистов будто нет работы на клиентов работать. Пошёл ты на хуй, хуй старый!"];
+var varian_3 = ["Пошёл ты на хуй", "Пососи хуйца, ты, позорный хуй. Иди мамке по дому помоги, а не в игрушки тут играй и не в телеграмме свои звёзды покупай по 5 копеек. Чтоб тебе пусто было. Настоящие развитие начинается там - где ты идёшь нахуй!"];
+
+
+var point1 = document.querySelector("#small_1O")
+var point2 = document.querySelector("#small_2O")
+var point3 = document.querySelector("#small_3O")
+
+point2.classList.remove("small_22O");
+point3.classList.remove("small_32O");
+
+
+
+but_2.onclick = function() {
+    var mySRC = myIMG.getAttribute("src");
+    if (mySRC === "pic1.jpg") {
+myIMG.setAttribute("src", "pic2.jpg");
+point1.classList.remove("small_12O");
+point2.classList.add("small_22O");
+head_text.textContent = varian_2[0];
+general_text.textContent = varian_2[1];
+    } else if ((mySRC === "pic2.jpg")){
+myIMG.setAttribute("src", "pic3.jpg");
+point2.classList.remove("small_22O");
+point3.classList.add("small_32O");
+head_text.textContent = varian_3[0];
+general_text.textContent = varian_3[1];
+    } else {
+myIMG.setAttribute("src", "pic1.jpg");
+point3.classList.remove("small_32O");
+point1.classList.add("small_12O");
+head_text.textContent = varian_1[0];
+general_text.textContent = varian_1[1];
+    };
+};
+
+but_1.onclick = function() {
+    var mySRC = myIMG.getAttribute("src");
+    if (mySRC === "pic1.jpg") {
+myIMG.setAttribute("src", "pic3.jpg");
+point1.classList.remove("small_12O");
+point3.classList.add("small_32O");
+head_text.textContent = varian_3[0];
+general_text.textContent = varian_3[1];
+    } else if ((mySRC === "pic3.jpg")){
+myIMG.setAttribute("src", "pic2.jpg");
+point3.classList.remove("small_32O");
+point2.classList.add("small_22O");
+head_text.textContent = varian_2[0];
+general_text.textContent = varian_2[1];
+    } else {
+myIMG.setAttribute("src", "pic1.jpg");
+point2.classList.remove("small_22O");
+point1.classList.add("small_12O");
+head_text.textContent = varian_1[0];
+general_text.textContent = varian_1[1];
+    };
+};
+
+
+
+
+</script>
+</body>
+
+</html>
