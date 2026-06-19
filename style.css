@@ -36,25 +36,32 @@ body {
     width: 8%;
     float: left;
     margin-left: 3vw;
+
 }
 #prjkts {
     height: 4.5vw;
     width: 8%;
     float: left;
+
 }
 #head_txt {
     color: #ffffff;
     font-size: 1vw;
     text-align: center;
     margin-top: 1.7vw;
+
 }
 #head_txt:hover {
     color: #ffffff;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     text-align: center;
-    margin-top: 1.3vw;
-
+    margin-top: 1.65vw;
 }
+
+a {
+    text-decoration: none ;
+}
+
 #tg {
     height: 4.5vw;
     width: 4.5vw;
@@ -181,7 +188,7 @@ body {
 }
 .about_us:hover {
     
-    box-shadow: 4px 4px 8px rgb(255, 255, 255);
+    box-shadow: 0.1vw 0.1vw 0.2vw rgb(255, 255, 255);
 }
 
 #pic {
@@ -250,13 +257,6 @@ body {
     border: 0.2vw solid white;
 }
 
-#f {opacity: 0}
-#text_1 {
-    margin: 1.8vw;
-    font-size: 3vw;
-    font-weight: bold;
-    position: static;
-}
 #circle_2 {
 
     background-color: rgb(33, 33, 54);
@@ -268,9 +268,44 @@ body {
     width: 7vw;
     height: 7vw;
     float: left;
-    
-
 }
+
+#tringle_2 {
+    
+    width: 0;
+    height: 0;
+    border-top: 2.5vw solid transparent;
+    border-bottom: 2.5vw solid transparent;
+    border-left: 3.5vw solid #217ffa; /* цвет треугольника */
+    border-right: 0 solid transparent;
+    position: static;
+    margin-top: 1.05vw;
+    margin-left: 2.3vw;
+}
+#tringle_1 {
+    
+    width: 0;
+    height: 0;
+    border-top: 2.5vw solid transparent;
+    border-bottom: 2.5vw solid transparent;
+    border-right: 3.5vw solid #217ffa; /* цвет треугольника */
+    border-left: 0 solid transparent;
+    position: static;
+    margin-top: 1.05vw;
+    margin-left: 1.2vw;
+}
+
+
+
+#f {opacity: 0}
+#text_1 {
+    margin: 1.8vw;
+    margin-top: 0;
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+}
+
 
 
 
@@ -380,7 +415,7 @@ body {
 
 }
 
-.projects:hover {box-shadow: 2px 2px 6px #ffffff;}
+.projects:hover {box-shadow: 0.1vw 0.1vw 0.2vw rgb(255, 255, 255)}
 
 #project1 {
     height: 22vw;
