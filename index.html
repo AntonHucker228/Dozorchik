@@ -10,6 +10,15 @@
 </head>
 
 <body>
+
+
+    <div id="orientation-warning" style="display: none;">
+        <div class="warning-content">
+            <h2>Пожалуйста, переверните устройство</h2>
+            <p>Наш сайт оптимизирован для горизонтальной ориентации.</p>
+        </div>
+    </div>
+
     <div id="head">
         <p id="coma">.</p>
         <div id="name"><p id="main_name">DozorTeam</p></div>
@@ -194,6 +203,19 @@ general_text.textContent = varian_1[1];
     };
 };
 
+function checkOrientation() {
+    const warning = document.getElementById('orientation-warning');
+    // Проверка: если высота больше ширины — значит вертикально
+    if (window.innerHeight > window.innerWidth) {
+        warning.style.display = 'flex';
+    } else {
+        warning.style.display = 'none';
+    }
+}
+
+window.addEventListener("resize", checkOrientation);
+window.addEventListener("orientationchange", checkOrientation);
+checkOrientation(); // Запуск при загрузке
 
 
 
