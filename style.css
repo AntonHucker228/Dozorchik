@@ -512,7 +512,7 @@ a {
 footer {
     background-color: #15141f;
     width: 100%;
-    height: 10vw;
+    height-max: 15vw;
     color:black;
     text-align: left;
     font-size: 3vw;
