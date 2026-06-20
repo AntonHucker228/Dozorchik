@@ -529,21 +529,24 @@ font-family:Elephant;
 padding-top: 3vw;
 padding-left: 1vw;
 float: left;
+background-color: #15141f;
 
 
 }
 
 #color_blue_foot {
 color: #217ffa;
+background-color: #15141f;
 }
 #color_white_foot{
 color: #ffffff;
+background-color: #15141f;
 }
 
 #page_info_foot {
     width: 10%;
     height: 9.65vw;
-    /*background-color: aqua; */
+    background-color: #15141f;
     float: left;
     color: #ffffff;
     font-size: 0.7vw;
@@ -562,6 +565,7 @@ color: #ffffff;
     font-family: Calibri;
     text-align: left;
     margin-left: 5vw;
+    background-color: #15141f;
 }
 
 #contacts {
@@ -573,5 +577,6 @@ color: #ffffff;
     font-family: Calibri;
     text-align: left;
     margin-left: 5vw;
+    background-color: #15141f;
 
 }
