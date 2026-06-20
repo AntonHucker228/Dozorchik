@@ -400,6 +400,7 @@ a {
     font-size: 2.8vw;
     text-align: center;
     font-family: Calibri;
+    color: #ffffff;
 
 }
 
@@ -512,10 +513,7 @@ a {
 footer {
     background-color: #15141f;
     width: 100%;
-    height: 10vw;
-    color:black;
-    text-align: left;
-    font-size: 3vw;
+    height: 50%;
     bottom: 0%;
 }
 
@@ -523,12 +521,13 @@ footer {
 
 
 #logo_foot {
-max-width: 30%;
-height: 6.65vw;
+width: 30%;
+height: 80%;
 font-family:Elephant;
-padding-top: 3vw;
-padding-left: 1vw;
+padding-top: 5%;
+padding-left: 5%;
 float: left;
+font-size: 3vw;
 
 
 }
@@ -541,37 +540,35 @@ color: #ffffff;
 }
 
 #page_info_foot {
-    width: 10%;
-    height: 9.65vw;
+    width: 13%;
+    height: 80%vw;
     /*background-color: aqua; */
     float: left;
     color: #ffffff;
     font-size: 0.7vw;
     font-family: Calibri;
     text-align: left;
-    margin-left: 5vw;
+
 }
 
 #projects_foot{
-    width: 10%;
-    height: 9.65vw;
+    width: 20%;
+    height: 80%;
     /* background-color: coral; */
     float: left;
     color: #ffffff;
     font-size: 0.7vw;
     font-family: Calibri;
     text-align: left;
-    margin-left: 5vw;
 }
 
 #contacts {
-    width: 10%;
-    height: 9.65vw;
+    width: 20%;
+    height: 80%;
     float: left;
     color: #ffffff;
     font-size: 0.7vw;
     font-family: Calibri;
     text-align: left;
-    margin-left: 5vw;
 
 }
